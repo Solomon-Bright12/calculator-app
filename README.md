@@ -1,5 +1,4 @@
 # calculator-app
-
 Calculator App
 A simple calculator application developed by a beginner to help others perform basic arithmetic operations easily.
 
