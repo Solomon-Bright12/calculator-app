@@ -14,15 +14,13 @@
                         let result = expression
                             .replace(/×/g, '*')
                             .replace(/÷/g, '/')
-                            .replace(/π/g, Math.PI)
+                            .replace(/π/g, 'pi')
                             .replace(/\^/g, '')
-                            .replace(/\(/g, '*')
-                            .replace(/\)/g, '')
                             .replace(/\%/g, '*0.01');
-                        output.innerText = eval(result);
+                        output.innerText = math.evaluate(result);
                         expression = output.innerText;
                     } catch (err) {
-                        output.innerText = "Error";
+                        output.innerText = "SyntaxError";
                         expression = "";
                     }
                     break;
