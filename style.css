@@ -109,4 +109,14 @@
         button:active {
             background: #00d4ff;
         }
-        
+        .intro{
+            width: 300px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, yellow, purple);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
